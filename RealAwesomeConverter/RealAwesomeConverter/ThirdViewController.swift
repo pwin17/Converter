@@ -6,4 +6,7 @@
 //  Copyright © 2019 Group H. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ThirdViewController: UIViewController, {
+}

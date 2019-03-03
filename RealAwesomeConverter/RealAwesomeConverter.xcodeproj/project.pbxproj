@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F50A0CF222C8FA8009E3B23 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50A0CE222C8FA8009E3B23 /* ThirdViewController.swift */; };
 		3FA2377522263C17004D9EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2377422263C17004D9EF0 /* AppDelegate.swift */; };
 		3FA2377722263C17004D9EF0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2377622263C17004D9EF0 /* FirstViewController.swift */; };
 		3FA2377922263C17004D9EF0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2377822263C17004D9EF0 /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F50A0CE222C8FA8009E3B23 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3FA2377122263C17004D9EF0 /* RealAwesomeConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealAwesomeConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2377422263C17004D9EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA2377622263C17004D9EF0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3FA2377422263C17004D9EF0 /* AppDelegate.swift */,
 				3FA2377622263C17004D9EF0 /* FirstViewController.swift */,
 				3FA2377822263C17004D9EF0 /* SecondViewController.swift */,
+				3F50A0CE222C8FA8009E3B23 /* ThirdViewController.swift */,
 				3FA2377A22263C17004D9EF0 /* Main.storyboard */,
 				3FA2377D22263C17004D9EF0 /* Assets.xcassets */,
 				3FA2377F22263C17004D9EF0 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				3FA2377922263C17004D9EF0 /* SecondViewController.swift in Sources */,
 				3FA2377522263C17004D9EF0 /* AppDelegate.swift in Sources */,
+				3F50A0CF222C8FA8009E3B23 /* ThirdViewController.swift in Sources */,
 				3FA2377722263C17004D9EF0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
