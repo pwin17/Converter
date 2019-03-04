@@ -26,7 +26,7 @@ class ThirdViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     @IBOutlet weak var output: UILabel!
     
     //CREATING PICKER VIEW
-    func numberOfComponents(in pickerView: UIPickerView) -> Int
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
         return 2
     }
