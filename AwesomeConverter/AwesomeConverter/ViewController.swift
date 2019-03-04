@@ -12,8 +12,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var myCurrency:[String] = []
     var myValues:[Double] = []
+    
+    var a:Int = 0;
+    var b:Int = 0;
 
     var activeCurrency:Double = 0;
+    var passiveCurrency:Double = 0;
     
     //OBJECTS
     @IBOutlet weak var Input: UITextField!
@@ -24,7 +28,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     //CREATING PICKER VIEW
     func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
-        return 1
+        return 2
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -34,14 +38,17 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return myCurrency[row]
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        activeCurrency = myValues[row]
+        a = pickerView.selectedRow(inComponent: 0)
+        b = pickerView.selectedRow(inComponent: 1)
+        activeCurrency = myValues[a]
+        passiveCurrency = myValues[b]
     }
     
     //BUTTON
     @IBAction func action(_ sender: AnyObject) {
         if (Input.text != "")
         {
-            output.text = String(Double(Input.text!)! * activeCurrency)
+            output.text = String(Double(Input.text!)! * (1/activeCurrency) * passiveCurrency)
         }
         
     }
