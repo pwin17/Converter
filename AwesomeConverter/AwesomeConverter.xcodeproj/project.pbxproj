@@ -14,6 +14,7 @@
 		3F4C24902224CDF600A1C0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4C248E2224CDF600A1C0E6 /* LaunchScreen.storyboard */; };
 		3F4C249B2224CDF600A1C0E6 /* AwesomeConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C249A2224CDF600A1C0E6 /* AwesomeConverterTests.swift */; };
 		3F4C24A62224CDF600A1C0E6 /* AwesomeConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C24A52224CDF600A1C0E6 /* AwesomeConverterUITests.swift */; };
+		3FB6FD20223038EA007B074E /* icons8-currency-exchange-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6FD1F223038EA007B074E /* icons8-currency-exchange-64.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F4C24A12224CDF600A1C0E6 /* AwesomeConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4C24A52224CDF600A1C0E6 /* AwesomeConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeConverterUITests.swift; sourceTree = "<group>"; };
 		3F4C24A72224CDF600A1C0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB6FD1F223038EA007B074E /* icons8-currency-exchange-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-currency-exchange-64.png"; path = "../../../../../Downloads/icons8-currency-exchange-64.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3F4C248C2224CDF600A1C0E6 /* Assets.xcassets */,
 				3F4C248E2224CDF600A1C0E6 /* LaunchScreen.storyboard */,
 				3F4C24912224CDF600A1C0E6 /* Info.plist */,
+				3FB6FD1F223038EA007B074E /* icons8-currency-exchange-64.png */,
 			);
 			path = AwesomeConverter;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4C24902224CDF600A1C0E6 /* LaunchScreen.storyboard in Resources */,
+				3FB6FD20223038EA007B074E /* icons8-currency-exchange-64.png in Resources */,
 				3F4C248D2224CDF600A1C0E6 /* Assets.xcassets in Resources */,
 				3F4C248B2224CDF600A1C0E6 /* Main.storyboard in Resources */,
 			);

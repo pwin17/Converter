@@ -15,6 +15,7 @@
 		3FA2378122263C17004D9EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2377F22263C17004D9EF0 /* LaunchScreen.storyboard */; };
 		3FA2378C22263C17004D9EF0 /* RealAwesomeConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2378B22263C17004D9EF0 /* RealAwesomeConverterTests.swift */; };
 		3FA2379722263C17004D9EF0 /* RealAwesomeConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2379622263C17004D9EF0 /* RealAwesomeConverterUITests.swift */; };
+		3FB6FD2222303B94007B074E /* icons8-up-down-arrow-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6FD2122303B93007B074E /* icons8-up-down-arrow-64.png */; };
 		3FFBF94B222CE39A009F8280 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBF94A222CE399009F8280 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		3FA2379222263C17004D9EF0 /* RealAwesomeConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealAwesomeConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2379622263C17004D9EF0 /* RealAwesomeConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAwesomeConverterUITests.swift; sourceTree = "<group>"; };
 		3FA2379822263C17004D9EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB6FD2122303B93007B074E /* icons8-up-down-arrow-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-up-down-arrow-64.png"; path = "../../../../../Downloads/icons8-up-down-arrow-64.png"; sourceTree = "<group>"; };
 		3FFBF94A222CE399009F8280 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				3FA2377D22263C17004D9EF0 /* Assets.xcassets */,
 				3FA2377F22263C17004D9EF0 /* LaunchScreen.storyboard */,
 				3FA2378222263C17004D9EF0 /* Info.plist */,
+				3FB6FD2122303B93007B074E /* icons8-up-down-arrow-64.png */,
 			);
 			path = RealAwesomeConverter;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB6FD2222303B94007B074E /* icons8-up-down-arrow-64.png in Resources */,
 				3FA2378122263C17004D9EF0 /* LaunchScreen.storyboard in Resources */,
 				3FA2377E22263C17004D9EF0 /* Assets.xcassets in Resources */,
 				3FA2377C22263C17004D9EF0 /* Main.storyboard in Resources */,

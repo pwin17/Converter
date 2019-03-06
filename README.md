@@ -24,3 +24,6 @@ When the simulator opens, click the left side and right side of picker view once
 4. Choose "To" and "From" units you would like to convert.
 5. Press "convert" and the result will be at the bottom of the screen.
 
+Credit to app icons:
+AwesomeConverter: https://img.icons8.com/cotton/64/000000/currency-exchange.png
+RealAwesomeConverter: https://img.icons8.com/nolan/64/000000/sorting-arrows.png
