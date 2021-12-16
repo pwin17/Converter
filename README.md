@@ -1,4 +1,4 @@
-# SoftwareProject1
+# iOS Unit Conversion Application
 #Group H
 Krystal Lee, Yuqian Zhang, Pyone Thant Win
 
